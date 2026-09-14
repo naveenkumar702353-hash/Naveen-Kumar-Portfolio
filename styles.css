@@ -1,0 +1,59 @@
+body{
+    font-family: "Poppins", sans-serif; 
+    color: white;
+    background-color: #080d1d;
+}
+#head{
+    border-radius: 18px;
+    color: white;
+    background-color: #0e1528;
+}
+.navbar a{
+    color: white;
+}
+.grid{
+    margin-top: 14px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 16px;
+}
+.card{
+    color:white;
+    background-color: #0e1528;
+    border-radius: 18px;
+    padding-left: 20px;
+}
+.skills{
+    display: flex;
+    flex-wrap: wrap;
+    gap:6px;
+}
+.tags{
+    padding:4px 9px;
+    border: 1px solid #374255;
+    border-radius: 15px;
+    font-size: 10px;
+    margin-bottom: 7px;
+}
+h4{
+    font-size: 15px;
+}
+.project{
+    color:white;
+    background-color: #0e1528;
+    border-radius: 18px;
+    padding-left: 20px;
+}
+.pinfo{
+    display: flex;
+    flex-wrap: wrap;
+    gap:6px;
+    padding-right: 4px;
+}
+.btn{
+    padding: 5px;
+}
+.mag{
+    margin-left: 35px;
+    margin-bottom: 8px;
+}
