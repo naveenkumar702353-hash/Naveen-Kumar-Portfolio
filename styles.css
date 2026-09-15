@@ -3,10 +3,15 @@ body{
     color: white;
     background-color: #080d1d;
 }
-#head{
+.navbar{
+    position: sticky;
+    top: 0;
+    z-index: 50;
     border-radius: 18px;
     color: white;
     background-color: #0e1528;
+    margin-top: 15px;
+    backdrop-filter: blur(25px);
 }
 .navbar a{
     color: white;
@@ -52,8 +57,19 @@ h4{
 }
 .btn{
     padding: 5px;
+    margin-bottom: 10px;
+}
+.btns{
+    gap: 16px;
 }
 .mag{
     margin-left: 35px;
     margin-bottom: 8px;
+}
+.grid1{
+    margin-top: 10px;
+    display:grid;
+    grid-template-columns: repeat(2, 220px);
+    gap: 16px;
+    
 }
